@@ -203,7 +203,6 @@ def start_game(difficulty):
         # Limpiar pantalla
         screen.fill((0, 0, 0))
 
-
         # Dibujar sprites en la pantalla
         all_sprites.draw(screen)
 
@@ -214,6 +213,10 @@ def start_game(difficulty):
         # Actualizar la pantalla
         pygame.display.flip()
 
+        # Salir del juego si se presiona ESC
+        if pygame.key.get_pressed()[pygame.K_ESCAPE]:
+            break  # Volver al menú principal
+        
         # Establecer límite de FPS
         clock.tick(FPS)
 
