@@ -1,7 +1,7 @@
 # Proyecto
 Proyecto de fase 1
 
-Juego simple donde se controla un jugador con WASD y se tiene que esquivar obstáculos que van cayendo de forma aleatoria.
+Juego simple desarrollado con PyGame donde se controla un jugador con WASD y se tiene que esquivar obstáculos que van cayendo de forma aleatoria.
 
 Se implementó un menú principal con 2 opciones, botón para jugar donde se selecciona la dificultad y otra opcion con los controles del juego.
 
